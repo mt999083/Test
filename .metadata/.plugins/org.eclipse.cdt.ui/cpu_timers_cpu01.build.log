@@ -1,0 +1,8 @@
+
+**** Build of configuration CPU1_RAM for project cpu_timers_cpu01 ****
+
+"C:\\ti\\ccs920\\ccs\\utils\\bin\\gmake" -k all 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****

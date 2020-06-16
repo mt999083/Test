@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project PLL-TEST1 ****
+
+"C:\\ti\\ccs920\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs920/ccs/tools/compiler/ti-cgt-c2000_18.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="E:/Nghien cuu khoa hoc Viet Phap 2020/Grid_connected-master/PLL-TEST1" --include_path="E:/Nghien cuu khoa hoc Viet Phap 2020/Grid_connected-master/PLL-TEST1/Driver/Include" --include_path="E:/Nghien cuu khoa hoc Viet Phap 2020/Grid_connected-master/PLL-TEST1/Driver/Source" --include_path="C:/ti/ccs920/ccs/tools/compiler/ti-cgt-c2000_18.12.3.LTS/include" --define=CPU1 -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 56 (col. 39): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "../main.c"
+ 
+Building target: "PLL-TEST1.out"
+Invoking: C2000 Linker
+"C:/ti/ccs920/ccs/tools/compiler/ti-cgt-c2000_18.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --define=CPU1 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"PLL-TEST1.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs920/ccs/tools/compiler/ti-cgt-c2000_18.12.3.LTS/lib" -i"C:/ti/ccs920/ccs/tools/compiler/ti-cgt-c2000_18.12.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="PLL-TEST1_linkInfo.xml" --rom_model -o "PLL-TEST1.out" "./ADC_PLL.obj" "./main.obj" "./Driver/Source/ABC_DQ0_NEG_F.obj" "./Driver/Source/ABC_DQ0_POS_F.obj" "./Driver/Source/CLARKE_F.obj" "./Driver/Source/CNTL_2P2Z_F.obj" "./Driver/Source/CNTL_2P2Z_F_ASM.obj" "./Driver/Source/CNTL_3P3Z_F.obj" "./Driver/Source/CNTL_3P3Z_F_ASM.obj" "./Driver/Source/CNTL_PI_F.obj" "./Driver/Source/DLOG_1CH_F.obj" "./Driver/Source/DLOG_4CH_F.obj" "./Driver/Source/DQ0_ABC_F.obj" "./Driver/Source/F2837xD_Adc.obj" "./Driver/Source/F2837xD_CodeStartBranch.obj" "./Driver/Source/F2837xD_CpuTimers.obj" "./Driver/Source/F2837xD_DefaultISR.obj" "./Driver/Source/F2837xD_EPwm.obj" "./Driver/Source/F2837xD_GlobalVariableDefs.obj" "./Driver/Source/F2837xD_Gpio.obj" "./Driver/Source/F2837xD_Ipc.obj" "./Driver/Source/F2837xD_PieCtrl.obj" "./Driver/Source/F2837xD_PieVect.obj" "./Driver/Source/F2837xD_SysCtrl.obj" "./Driver/Source/F2837xD_struct.obj" "./Driver/Source/F2837xD_usDelay.obj" "./Driver/Source/MATH_EMAVG_F.obj" "./Driver/Source/MPPT_INCC_F.obj" "./Driver/Source/MPPT_INCC_I_F.obj" "./Driver/Source/MPPT_PNO_F.obj" "./Driver/Source/NOTCH_FLTR_F.obj" "./Driver/Source/PARK_F.obj" "./Driver/Source/PID_GRANDO_F.obj" "./Driver/Source/RAMPGEN_F.obj" "./Driver/Source/SINEANALYZER_DIFF_F.obj" "./Driver/Source/SINEANALYZER_DIFF_wPWR_F.obj" "./Driver/Source/SPLL_1ph_F.obj" "./Driver/Source/SPLL_1ph_SOGI_F.obj" "./Driver/Source/SPLL_3PH_SRF_F.obj" "./Driver/Source/SPLL_3ph_DDSRF_F.obj" "./Driver/Source/iCLARKE_F.obj" "./Driver/Source/iPARK_F.obj" "./Driver/Source/sin_tab.obj" "../Cmd/2837xD_RAM_lnk_cpu1.cmd" "../Cmd/F2837xD_Headers_nonBIOS_cpu1.cmd"  
+<Linking>
+Finished building target: "PLL-TEST1.out"
+ 
+
+**** Build Finished ****
